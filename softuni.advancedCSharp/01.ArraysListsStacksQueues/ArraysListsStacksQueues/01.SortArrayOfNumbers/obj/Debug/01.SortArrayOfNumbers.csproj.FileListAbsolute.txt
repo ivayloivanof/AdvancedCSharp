@@ -1,0 +1,6 @@
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\softuni.advancedCSharp\01.ArraysListsStacksQueues\ArraysListsStacksQueues\01.SortArrayOfNumbers\bin\Debug\01.SortArrayOfNumbers.exe.config
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\softuni.advancedCSharp\01.ArraysListsStacksQueues\ArraysListsStacksQueues\01.SortArrayOfNumbers\bin\Debug\01.SortArrayOfNumbers.exe
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\softuni.advancedCSharp\01.ArraysListsStacksQueues\ArraysListsStacksQueues\01.SortArrayOfNumbers\bin\Debug\01.SortArrayOfNumbers.pdb
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\softuni.advancedCSharp\01.ArraysListsStacksQueues\ArraysListsStacksQueues\01.SortArrayOfNumbers\obj\Debug\01.SortArrayOfNumbers.csprojResolveAssemblyReference.cache
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\softuni.advancedCSharp\01.ArraysListsStacksQueues\ArraysListsStacksQueues\01.SortArrayOfNumbers\obj\Debug\01.SortArrayOfNumbers.exe
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\softuni.advancedCSharp\01.ArraysListsStacksQueues\ArraysListsStacksQueues\01.SortArrayOfNumbers\obj\Debug\01.SortArrayOfNumbers.pdb

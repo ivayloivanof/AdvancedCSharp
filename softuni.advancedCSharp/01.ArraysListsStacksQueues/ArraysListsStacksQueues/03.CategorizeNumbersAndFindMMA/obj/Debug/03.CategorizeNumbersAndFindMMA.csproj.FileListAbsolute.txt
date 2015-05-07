@@ -1,0 +1,5 @@
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\softuni.advancedCSharp\01.ArraysListsStacksQueues\ArraysListsStacksQueues\03.CategorizeNumbersAndFindMMA\bin\Debug\03.CategorizeNumbersAndFindMMA.exe.config
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\softuni.advancedCSharp\01.ArraysListsStacksQueues\ArraysListsStacksQueues\03.CategorizeNumbersAndFindMMA\bin\Debug\03.CategorizeNumbersAndFindMMA.exe
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\softuni.advancedCSharp\01.ArraysListsStacksQueues\ArraysListsStacksQueues\03.CategorizeNumbersAndFindMMA\bin\Debug\03.CategorizeNumbersAndFindMMA.pdb
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\softuni.advancedCSharp\01.ArraysListsStacksQueues\ArraysListsStacksQueues\03.CategorizeNumbersAndFindMMA\obj\Debug\03.CategorizeNumbersAndFindMMA.exe
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\softuni.advancedCSharp\01.ArraysListsStacksQueues\ArraysListsStacksQueues\03.CategorizeNumbersAndFindMMA\obj\Debug\03.CategorizeNumbersAndFindMMA.pdb

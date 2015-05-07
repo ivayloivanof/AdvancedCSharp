@@ -1,0 +1,6 @@
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\softuni.advancedCSharp\01.ArraysListsStacksQueues\ArraysListsStacksQueues\02.SortArrayUsingSelectionSort\bin\Debug\02.SortArrayUsingSelectionSort.exe.config
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\softuni.advancedCSharp\01.ArraysListsStacksQueues\ArraysListsStacksQueues\02.SortArrayUsingSelectionSort\bin\Debug\02.SortArrayUsingSelectionSort.exe
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\softuni.advancedCSharp\01.ArraysListsStacksQueues\ArraysListsStacksQueues\02.SortArrayUsingSelectionSort\bin\Debug\02.SortArrayUsingSelectionSort.pdb
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\softuni.advancedCSharp\01.ArraysListsStacksQueues\ArraysListsStacksQueues\02.SortArrayUsingSelectionSort\obj\Debug\02.SortArrayUsingSelectionSort.csprojResolveAssemblyReference.cache
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\softuni.advancedCSharp\01.ArraysListsStacksQueues\ArraysListsStacksQueues\02.SortArrayUsingSelectionSort\obj\Debug\02.SortArrayUsingSelectionSort.exe
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\softuni.advancedCSharp\01.ArraysListsStacksQueues\ArraysListsStacksQueues\02.SortArrayUsingSelectionSort\obj\Debug\02.SortArrayUsingSelectionSort.pdb
