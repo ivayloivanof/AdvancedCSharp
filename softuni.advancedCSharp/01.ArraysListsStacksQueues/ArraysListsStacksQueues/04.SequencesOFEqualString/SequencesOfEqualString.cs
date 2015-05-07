@@ -1,27 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
 
 class SequencesOfEqualString
 {
     static void Main()
     {
-        List<string> sequence = new List<string>(Console.ReadLine().Split(' '));
-        List<string> words = new List<string>();
+        string[] words = Console.ReadLine().Split();
 
-        for (int i = 0; i < sequence.Count; i++)
+        for (int i = 0; i < words.Length - 1; i++)
         {
-            string word = sequence[i];
-            for (int j = i+1; j < sequence.Count; j++)
+            Console.Write(words[i] + " ");
+            if (!words[i].Equals(words[i + 1]))
             {
-                if (sequence[i].Contains(sequence[j]))
-                {
-                    word += " "+ sequence[j];
-                    sequence.RemoveAt(j);
-                }
+                Console.WriteLine();
             }
-            words.Add(word);
-            sequence.RemoveAt(i);
         }
+        Console.Write(words[words.Length - 1]);
         Console.WriteLine();
     }
 }
