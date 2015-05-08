@@ -1,0 +1,6 @@
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\softuni.homework.FundamentalLevel\softuni.advancedCSharp\01.ArraysListsStacksQueues\ArraysListsStacksQueues\05.Longest\bin\Debug\05.Longest.exe.config
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\softuni.homework.FundamentalLevel\softuni.advancedCSharp\01.ArraysListsStacksQueues\ArraysListsStacksQueues\05.Longest\bin\Debug\05.Longest.exe
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\softuni.homework.FundamentalLevel\softuni.advancedCSharp\01.ArraysListsStacksQueues\ArraysListsStacksQueues\05.Longest\bin\Debug\05.Longest.pdb
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\softuni.homework.FundamentalLevel\softuni.advancedCSharp\01.ArraysListsStacksQueues\ArraysListsStacksQueues\05.Longest\obj\Debug\05.Longest.exe
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\softuni.homework.FundamentalLevel\softuni.advancedCSharp\01.ArraysListsStacksQueues\ArraysListsStacksQueues\05.Longest\obj\Debug\05.Longest.pdb
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\softuni.homework.FundamentalLevel\softuni.advancedCSharp\01.ArraysListsStacksQueues\ArraysListsStacksQueues\05.Longest\obj\Debug\05.LongestIncreasingSequence.csprojResolveAssemblyReference.cache

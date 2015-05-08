@@ -1,0 +1,1 @@
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\softuni.homework.FundamentalLevel\softuni.advancedCSharp\01.ArraysListsStacksQueues\ArraysListsStacksQueues\05.Longest\bin\Debug\05.Longest.exe.config
