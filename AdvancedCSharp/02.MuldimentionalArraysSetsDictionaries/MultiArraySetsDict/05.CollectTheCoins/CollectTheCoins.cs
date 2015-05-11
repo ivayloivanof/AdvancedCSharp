@@ -14,7 +14,6 @@ class CollectTheCoins
             }
         }
         WalkIntoAnArray(collection);
-        Console.WriteLine();
     }
 
     private static void WalkIntoAnArray(char[][] collection)
@@ -40,7 +39,8 @@ class CollectTheCoins
                         i--;
                     }
                 }
-                else if (field == '>')
+
+                if (field == '>')
                 {
                     j++;
                     if (j == collection[i].Length)
@@ -49,7 +49,8 @@ class CollectTheCoins
                         j--;
                     }
                 }
-                else if (field == '<')
+
+                if (field == '<')
                 {
                     j--;
                     if (j < 0)
@@ -58,7 +59,8 @@ class CollectTheCoins
                         j++;
                     }
                 }
-                else if (field == '^')
+
+                if (field == '^')
                 {
                     i--;
                     if (i < 0)
