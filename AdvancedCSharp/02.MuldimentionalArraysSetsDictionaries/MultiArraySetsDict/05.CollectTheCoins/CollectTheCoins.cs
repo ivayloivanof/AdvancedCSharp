@@ -3,75 +3,83 @@ class CollectTheCoins
 {
     static void Main()
     {
-        char[][] collection = new char[5][];
-        for (int i = 0; i < 5; i++)
+        string[] board = new string[4];
+        for (int row = 0; row < board.GetLength(0); row++)
         {
-            string row = Console.ReadLine();
-            collection[i] = new char [row.Length];
-            for (int j = 0; j < row.Length; j++)
-            {
-                collection[i][j] = row[j];
-            }
+            board[row] = Console.ReadLine();
+
         }
-        WalkIntoAnArray(collection);
+        WalkIntoAnArray(board);
     }
 
-    private static void WalkIntoAnArray(char[][] collection)
+    private static void WalkIntoAnArray(string[] board)
     {
-        int wall = 0;
-        int coins = 0;
-        for (int i = 0; i < collection.Length; i++)
+        int currentRow = 0;
+        int currentCol = 0;
+        int coinsCount = 0;
+        int wallHitsCount = 0;
+        string movementCommands = Console.ReadLine();
+        foreach (char currentDirection in movementCommands)
         {
-            for (int j = 0; j < collection[i].Length; j++)
+            if (currentDirection == 'V')
             {
-                char field = collection[i][j];
-                if (field == '$')
+                currentRow++;
+                if (currentRow >= board.GetLength(0))
                 {
-                    coins++;
+                    currentRow--;
+                    wallHitsCount++;
+                    continue;
                 }
-
-                if (field == 'V')
+                else if (currentCol >= board[currentRow].Length)
                 {
-                    i++;
-                    if (i == collection.Length)
-                    {
-                        wall++;
-                        i--;
-                    }
-                }
-
-                if (field == '>')
-                {
-                    j++;
-                    if (j == collection[i].Length)
-                    {
-                        wall++;
-                        j--;
-                    }
-                }
-
-                if (field == '<')
-                {
-                    j--;
-                    if (j < 0)
-                    {
-                        wall++;
-                        j++;
-                    }
-                }
-
-                if (field == '^')
-                {
-                    i--;
-                    if (i < 0)
-                    {
-                        wall++;
-                        i++;
-                    }
+                    currentRow--;
+                    wallHitsCount++;
+                    continue;
                 }
             }
+            else if (currentDirection == '>')
+            {
+                currentCol++;
+                if (currentCol >= board[currentRow].Length)
+                {
+                    currentCol--;
+                    wallHitsCount++;
+                    continue;
+                }
+            }
+            else if (currentDirection == '<')
+            {
+                currentCol--;
+                if (currentCol < 0)
+                {
+                    currentCol++;
+                    wallHitsCount++;
+                    continue;
+                }
+            }
+            else if (currentDirection == '^')
+            {
+                currentRow--;
+                if (currentRow < 0)
+                {
+                    currentRow++;
+                    wallHitsCount++;
+                    continue;
+                }
+                else if (currentCol >= board[currentRow].Length)
+                {
+                    currentRow++;
+                    wallHitsCount++;
+                    continue;
+                }
+            }
+
+            if (board[currentRow][currentCol].Equals('$'))
+            {
+                coinsCount++;
+            }
         }
-        Console.WriteLine(coins);
-        Console.WriteLine(wall);
+        Console.WriteLine("Coins collected: {0}", coinsCount);
+        Console.WriteLine("Walls hit: {0}", wallHitsCount);
     }
 }
