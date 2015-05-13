@@ -13,7 +13,7 @@ class BinarySsearch
 
     private static int BinarySearch(int[] numbers, int searchNumber)
     {
-        Array.Sort(numbers);
+        PerformInsertionSort(numbers);
         //int low = 0, high = numbers.Length - 1, position = 0;
         
         //while (low <= high)
@@ -28,24 +28,48 @@ class BinarySsearch
         //        low = position + 1;
         //}
 
-        int position = numbers.Length/2;
-        bool loop = true;
-        int notfound = -1;
-        while (loop)
-        {
-            if (numbers[position] == searchNumber)
-                return position;
-            else if (numbers[position] < searchNumber)
-                position++;
-            else if (numbers[position] > searchNumber)
-                position--;
-            else
-                loop = false;
+        //int position = numbers.Length/2;
+        //bool loop = true;
+        int notAFound = -1;
 
-            if (position < 0 || position > numbers.Length - 1)
-                return notfound;
+        for (int i = 0; i < numbers.Length; i++)
+        {
+            if (numbers[i] == searchNumber)
+                return i;
         }
 
-        return notfound;
+        //while (loop)
+        //{
+        //    if (numbers[position] == searchNumber)
+        //        return position;
+        //    else if (numbers[position] < searchNumber)
+        //        position++;
+        //    else if (numbers[position] > searchNumber)
+        //        position--;
+        //    else
+        //        loop = false;
+
+        //    if (position < 0 || position > numbers.Length - 1)
+        //        return notfound;
+        //}
+
+        return notAFound;
+    }
+
+    static int[] PerformInsertionSort(int[] inputArray)
+    {
+        for (int i = 0; i < inputArray.Length - 1; i++)
+        {
+            for (int j = i + 1; j > 0; j--)
+            {
+                if (inputArray[j - 1] > inputArray[j])
+                {
+                    int temp = inputArray[j - 1];
+                    inputArray[j - 1] = inputArray[j];
+                    inputArray[j] = temp;
+                }
+            }
+        }
+        return inputArray;
     }
 }
