@@ -1,30 +1,45 @@
 ﻿using System;
+using System.Collections.Generic;
+
 class PrimeFactorization
 {
     static void Main()
     {
         int number = int.Parse(Console.ReadLine());
-        int prime = 2;
-        int startNum = number;
+        List<long> prime = new List<long>();
+        List<long> primeExit = new List<long>();
+        long numbers = number;
 
-        //Console.Write("{0} = ", );
-        if (IsPrime(number))
+        for (int i = 0; i < 3500000; i++)
         {
-            Console.WriteLine("{0} = {0}", number);
+            if(IsPrime(i))
+                prime.Add(i);
         }
+        
+        if (IsPrime(number))
+            Console.WriteLine("{0} = {0}", number);
         else
         {
             bool loop = true;
+            int l = 0;
             while (loop)
             {
-                number = number/prime;
-                if (IsPrime(number))
+                //numbers = numbers/prime;
+                if (numbers%prime[l] == 0)
                 {
-                    loop = false;
+                    primeExit.Add(prime[l]);
+                    numbers = numbers/prime[l];
+                    l = 0;
                 }
+                else
+                    l++;
+
+                if (numbers == 1)
+                    loop = false;
             }
+            Console.WriteLine("{0} = {1}", number, string.Join(" * ", primeExit.ToArray()));
         }
-        Console.WriteLine("{0} = {0}", startNum);
+        
     }
 
     public static bool IsPrime(int candidate)
