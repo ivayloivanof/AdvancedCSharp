@@ -5,17 +5,18 @@ class PrimeFactorization
 {
     static void Main()
     {
-        int number = int.Parse(Console.ReadLine());
+        long number = long.Parse(Console.ReadLine());
         List<long> prime = new List<long>();
         List<long> primeExit = new List<long>();
         long numbers = number;
 
-        for (int i = 0; i < 3500000; i++)
+        for (int i = 0; i < 2000000; i++)
         {
-            if(IsPrime(i))
+            if (IsPrime(i))
                 prime.Add(i);
         }
-        
+        prime.Add((long)(Math.Pow(2, 31) - 1));
+
         if (IsPrime(number))
             Console.WriteLine("{0} = {0}", number);
         else
@@ -24,11 +25,10 @@ class PrimeFactorization
             int l = 0;
             while (loop)
             {
-                //numbers = numbers/prime;
-                if (numbers%prime[l] == 0)
+                if (numbers % prime[l] == 0)
                 {
                     primeExit.Add(prime[l]);
-                    numbers = numbers/prime[l];
+                    numbers = numbers / prime[l];
                     l = 0;
                 }
                 else
@@ -39,10 +39,10 @@ class PrimeFactorization
             }
             Console.WriteLine("{0} = {1}", number, string.Join(" * ", primeExit.ToArray()));
         }
-        
+
     }
 
-    public static bool IsPrime(int candidate)
+    public static bool IsPrime(long candidate)
     {
         // Test whether the parameter is a prime number.
         if ((candidate & 1) == 0)
@@ -52,7 +52,7 @@ class PrimeFactorization
             else
                 return false;
         }
-        for (int i = 3; (i * i) <= candidate; i += 2)
+        for (long i = 3; (i * i) <= candidate; i += 2)
         {
             if ((candidate % i) == 0)
                 return false;
