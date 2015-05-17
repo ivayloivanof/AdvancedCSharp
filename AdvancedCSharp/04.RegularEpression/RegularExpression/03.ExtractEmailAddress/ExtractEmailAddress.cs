@@ -7,7 +7,7 @@ class ExtractEmailAddress
     {
         string text = Console.ReadLine();
 
-        string pattern = @"\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*";
+        string pattern = @"\w+([-._]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*";
         Regex regex = new Regex(pattern);
         MatchCollection email = regex.Matches(text);
         foreach (Match match in email)
