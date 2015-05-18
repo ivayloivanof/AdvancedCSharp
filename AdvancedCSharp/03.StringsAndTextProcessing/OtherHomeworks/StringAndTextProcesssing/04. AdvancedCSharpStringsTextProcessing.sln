@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Reverse String", "04. AdvancedCSharpStringsTextProcessing\01. Reverse String.csproj", "{72AE9137-5C55-4CB4-9397-CBEBE6D72CAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. String Length", "02. String Length\02. String Length.csproj", "{6E86198C-6CA4-488C-820F-B58895A3B95D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Count Substring Occurrences", "03. Count Substring Occurrences\03. Count Substring Occurrences.csproj", "{AE6DC009-8B06-4C83-BA9F-1E925CF90DC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Text Filter", "04. Text Filter\04. Text Filter.csproj", "{2CC1F140-7188-4296-9711-22626E545FD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Unicode Characters", "05. Unicode Characters\05. Unicode Characters.csproj", "{562C9527-FB77-4BB5-BB46-9A0E5FE9B710}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Palindromes", "06. Palindromes\06. Palindromes.csproj", "{05666534-1EF1-499A-B5E5-86EAEA21A4A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Letters change Numbers", "07. Letters change Numbers\07. Letters change Numbers.csproj", "{169B76B6-E7AB-49EF-A99A-326EE5848BF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72AE9137-5C55-4CB4-9397-CBEBE6D72CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72AE9137-5C55-4CB4-9397-CBEBE6D72CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72AE9137-5C55-4CB4-9397-CBEBE6D72CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72AE9137-5C55-4CB4-9397-CBEBE6D72CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E86198C-6CA4-488C-820F-B58895A3B95D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E86198C-6CA4-488C-820F-B58895A3B95D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E86198C-6CA4-488C-820F-B58895A3B95D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E86198C-6CA4-488C-820F-B58895A3B95D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE6DC009-8B06-4C83-BA9F-1E925CF90DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE6DC009-8B06-4C83-BA9F-1E925CF90DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE6DC009-8B06-4C83-BA9F-1E925CF90DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE6DC009-8B06-4C83-BA9F-1E925CF90DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CC1F140-7188-4296-9711-22626E545FD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC1F140-7188-4296-9711-22626E545FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC1F140-7188-4296-9711-22626E545FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CC1F140-7188-4296-9711-22626E545FD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{562C9527-FB77-4BB5-BB46-9A0E5FE9B710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{562C9527-FB77-4BB5-BB46-9A0E5FE9B710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{562C9527-FB77-4BB5-BB46-9A0E5FE9B710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{562C9527-FB77-4BB5-BB46-9A0E5FE9B710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05666534-1EF1-499A-B5E5-86EAEA21A4A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05666534-1EF1-499A-B5E5-86EAEA21A4A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05666534-1EF1-499A-B5E5-86EAEA21A4A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05666534-1EF1-499A-B5E5-86EAEA21A4A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{169B76B6-E7AB-49EF-A99A-326EE5848BF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{169B76B6-E7AB-49EF-A99A-326EE5848BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{169B76B6-E7AB-49EF-A99A-326EE5848BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{169B76B6-E7AB-49EF-A99A-326EE5848BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
