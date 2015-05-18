@@ -1,14 +1,26 @@
 ﻿using System;
+using System.Linq;
+using System.Text.RegularExpressions;
+
 class TextFilter
 {
     static void Main()
     {
-        string[] bannedWords = Console.ReadLine().Split(',');
-        string text = Console.ReadLine();
+        string[] words = Console.ReadLine().Split(new[] { ',', ';', ' ' }, StringSplitOptions.RemoveEmptyEntries).ToArray();
+        string input = Console.ReadLine();
+        Console.WriteLine(Filter(input, words));
+    }
 
-        text = text.Replace(bannedWords[0].Trim(), new string('*', bannedWords[0].Trim().Length));
-        text = text.Replace(bannedWords[1].Trim(), new string('*', bannedWords[1].Trim().Length));
-
-        Console.WriteLine(text);
+    public static string Filter(string input, string[] words)
+    {
+        var re = new Regex(
+            @"\b("
+            + string.Join("|", words.Select(word =>
+                string.Join(@"\s*", word.ToCharArray())))
+            + @")\b", RegexOptions.IgnoreCase);
+        return re.Replace(input, match =>
+        {
+            return new string('*', match.Length);
+        });
     }
 }
