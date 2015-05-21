@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabyrinthDash", "ExamExersize\LabyrinthDash.csproj", "{07091A7A-9117-40F8-AD18-A074EB3A252E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleaningCommands", "CleaningCommands\CleaningCommands.csproj", "{457095CF-8214-4C94-8832-922F0A58594C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LittleJohn", "LittleJohn\LittleJohn.csproj", "{611727F6-2CBD-4C2F-89DA-46B0AFC42E87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07091A7A-9117-40F8-AD18-A074EB3A252E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07091A7A-9117-40F8-AD18-A074EB3A252E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07091A7A-9117-40F8-AD18-A074EB3A252E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07091A7A-9117-40F8-AD18-A074EB3A252E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{457095CF-8214-4C94-8832-922F0A58594C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{457095CF-8214-4C94-8832-922F0A58594C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{457095CF-8214-4C94-8832-922F0A58594C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{457095CF-8214-4C94-8832-922F0A58594C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{611727F6-2CBD-4C2F-89DA-46B0AFC42E87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{611727F6-2CBD-4C2F-89DA-46B0AFC42E87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{611727F6-2CBD-4C2F-89DA-46B0AFC42E87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{611727F6-2CBD-4C2F-89DA-46B0AFC42E87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
