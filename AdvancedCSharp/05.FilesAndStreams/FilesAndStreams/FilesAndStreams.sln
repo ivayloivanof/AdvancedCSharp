@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.LineNumbers", "02.LineNu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.WordCountAndSaveInFile", "03.WordCountAndSaveInFile\03.WordCountAndSaveInFile.csproj", "{3635E22B-1F98-405D-93CF-678BC5779E77}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.CopyBinaryFile", "04.CopyBinaryFile\04.CopyBinaryFile.csproj", "{04D629AE-FD59-4137-91DE-A66FA5912B82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3635E22B-1F98-405D-93CF-678BC5779E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3635E22B-1F98-405D-93CF-678BC5779E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3635E22B-1F98-405D-93CF-678BC5779E77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04D629AE-FD59-4137-91DE-A66FA5912B82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D629AE-FD59-4137-91DE-A66FA5912B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D629AE-FD59-4137-91DE-A66FA5912B82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D629AE-FD59-4137-91DE-A66FA5912B82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
