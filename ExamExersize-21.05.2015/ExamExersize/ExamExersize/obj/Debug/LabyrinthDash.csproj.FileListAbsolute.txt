@@ -1,0 +1,6 @@
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\ExamExersize-21.05.2015\ExamExersize\ExamExersize\bin\Debug\ExamExersize.exe.config
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\ExamExersize-21.05.2015\ExamExersize\ExamExersize\bin\Debug\ExamExersize.exe
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\ExamExersize-21.05.2015\ExamExersize\ExamExersize\bin\Debug\ExamExersize.pdb
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\ExamExersize-21.05.2015\ExamExersize\ExamExersize\obj\Debug\LabyrinthDash.csprojResolveAssemblyReference.cache
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\ExamExersize-21.05.2015\ExamExersize\ExamExersize\obj\Debug\ExamExersize.exe
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\ExamExersize-21.05.2015\ExamExersize\ExamExersize\obj\Debug\ExamExersize.pdb

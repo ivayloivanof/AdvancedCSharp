@@ -1,0 +1,5 @@
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\ExamExersize-21.05.2015\ExamExersize\CleaningCommands\bin\Debug\CleaningCommands.exe.config
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\ExamExersize-21.05.2015\ExamExersize\CleaningCommands\bin\Debug\CleaningCommands.exe
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\ExamExersize-21.05.2015\ExamExersize\CleaningCommands\bin\Debug\CleaningCommands.pdb
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\ExamExersize-21.05.2015\ExamExersize\CleaningCommands\obj\Debug\CleaningCommands.exe
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\ExamExersize-21.05.2015\ExamExersize\CleaningCommands\obj\Debug\CleaningCommands.pdb

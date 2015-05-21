@@ -1,0 +1,6 @@
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\Exersize\StreamAndFiles\FileAndStreamsexersize\FileAndStreamsexersize\bin\Debug\FileAndStreamsexersize.exe.config
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\Exersize\StreamAndFiles\FileAndStreamsexersize\FileAndStreamsexersize\bin\Debug\FileAndStreamsexersize.exe
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\Exersize\StreamAndFiles\FileAndStreamsexersize\FileAndStreamsexersize\bin\Debug\FileAndStreamsexersize.pdb
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\Exersize\StreamAndFiles\FileAndStreamsexersize\FileAndStreamsexersize\obj\Debug\FileAndStreamsexersize.csprojResolveAssemblyReference.cache
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\Exersize\StreamAndFiles\FileAndStreamsexersize\FileAndStreamsexersize\obj\Debug\FileAndStreamsexersize.exe
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\Exersize\StreamAndFiles\FileAndStreamsexersize\FileAndStreamsexersize\obj\Debug\FileAndStreamsexersize.pdb
