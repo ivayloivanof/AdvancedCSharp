@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleaningCommands", "Cleanin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LittleJohn", "LittleJohn\LittleJohn.csproj", "{611727F6-2CBD-4C2F-89DA-46B0AFC42E87}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CouplesFfrequency", "CouplesFfrequency\CouplesFfrequency.csproj", "{0B9AB51F-61FE-45A5-83D6-5A710A105FBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{611727F6-2CBD-4C2F-89DA-46B0AFC42E87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{611727F6-2CBD-4C2F-89DA-46B0AFC42E87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{611727F6-2CBD-4C2F-89DA-46B0AFC42E87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B9AB51F-61FE-45A5-83D6-5A710A105FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B9AB51F-61FE-45A5-83D6-5A710A105FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B9AB51F-61FE-45A5-83D6-5A710A105FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B9AB51F-61FE-45A5-83D6-5A710A105FBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
