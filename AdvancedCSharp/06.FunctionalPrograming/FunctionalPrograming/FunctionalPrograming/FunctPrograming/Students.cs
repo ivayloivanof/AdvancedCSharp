@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace StudentsClass
 {
@@ -41,6 +42,7 @@ namespace StudentsClass
                 {
                     int randomNumber = random.Next(876000000, 899000000);
                     int randomAge = random.Next(18, 55);
+                    List<int> marks = new List<int> { 1, 2, 3, 4, 5, 3 };
                     string line = reader.ReadLine();
                     if (line == null)
                         break;
@@ -49,9 +51,11 @@ namespace StudentsClass
                         i++;
                         continue;
                     }
+                    if (i == 23)
+                        marks = new List<int> { 1, 2, 3, 4, 5, 6 };
                     string[] words = line.Split('\t');
                     students.Add(new Student(words[1], words[2], randomAge, i.ToString(), randomNumber.ToString(),
-                                words[3], new List<int> { 1, 2, 3 }, words[7].ToString()));
+                                words[3], marks, words[7].ToString()));
                     i++;
                 }
             }
@@ -113,6 +117,113 @@ namespace StudentsClass
                 }
             }
         }
+
+        public static void SortStudentBy(List<Student> students, string sortByWith, bool print)
+        {
+            if (sortByWith.Contains("lambda"))
+            {
+                var sortWithLambda = students.OrderByDescending(st => st.FirstName)
+                    .ThenByDescending(st => st.LastName)
+                    .Select(st => (string.Format("{0} {1}", st.FirstName, st.LastName)));
+                if (print)
+                {
+                    Console.WriteLine("With Lambda:");
+                    foreach (string s in sortWithLambda)
+                    {
+                        Console.WriteLine(s);
+                    }
+                }
+            }
+
+            if (sortByWith.Contains("linq"))
+            {
+                var sortWithLinq = from st in students
+                    orderby st.FirstName descending, st.LastName descending
+                    select st;
+                if (print)
+                {
+                    foreach (var student in sortWithLinq)
+                    {
+                        Console.WriteLine("With LINQ:");
+                        StringBuilder str = new StringBuilder();
+                        str.Append(student.FirstName);
+                        str.Append(" ");
+                        str.Append(student.LastName);
+                        Console.WriteLine(str.ToString());
+                    }
+                }
+            }
+            
+        }
+
+        public static void FilterStudentsByEmail(List<Student> students, string emailPattern, bool print)
+        {
+            Regex regex = new Regex(emailPattern);
+            var emailGroup =
+            from student in students
+            where regex.IsMatch(student.Email)
+            select student;
+
+            if (print)
+            {
+                foreach (var student in emailGroup)
+                {
+                    StringBuilder str = new StringBuilder();
+                    str.Append(student.FirstName);
+                    str.Append(" ");
+                    str.Append(student.LastName);
+                    str.Append(" ===>>> ");
+                    str.Append(student.Email);
+                    Console.WriteLine(str.ToString());
+                }
+            }
+        }
+
+        public static void FilterStudentsByPhone(List<Student> students, bool print)
+        {
+            var phoneGroup =
+            from student in students
+            where (student.Phone.StartsWith("02") || student.Phone.StartsWith("+3592") || student.Phone.StartsWith("+359 2"))
+            select student;
+
+            if (print)
+            {
+                foreach (var student in phoneGroup)
+                {
+                    StringBuilder str = new StringBuilder();
+                    str.Append(student.FirstName);
+                    str.Append(" ");
+                    str.Append(student.LastName);
+                    str.Append(" ===>>> ");
+                    str.Append(student.Phone);
+                    Console.WriteLine(str.ToString());
+                }
+            }
+        }
+
+        public static void ExelentStudents(List<Student> students, bool print)
+        {
+            var exelentStudents =
+            from student in students
+            where student.Marks.Max() == 6
+            select student;
+
+            if (print)
+            {
+                foreach (var student in exelentStudents)
+                {
+                    StringBuilder str = new StringBuilder();
+                    str.Append(student.FirstName);
+                    str.Append(" ");
+                    str.Append(student.LastName);
+                    str.Append(" ===>>> ");
+                    str.Append(student.Marks.Max());
+                    Console.WriteLine(str.ToString());
+                }
+            }
+        }
+
+
     }
 }
 

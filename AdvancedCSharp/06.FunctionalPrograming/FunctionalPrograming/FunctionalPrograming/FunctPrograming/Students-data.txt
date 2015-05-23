@@ -1,5 +1,5 @@
 ID	First name	Last Name	Email	Gender	Student type	Exam result	Homework sent	Homework evaluated	Teamwork	Attendances	Bonus
-1	Sara	Mills	smills0@marketwatch.com	Female	Online	48	6	7	2.6	8	0.99
+1	Sara	Mills	smills0@abv.bg	Female	Online	48	6	7	2.6	8	0.99
 2	Daniel	Carter	dcarter1@buzzfeed.com	Male	Onsite	271	9	4	10.7	10	1.32
 3	Aaron	Gibson	agibson2@house.gov	Male	Online	96	8	9	11.6	9	3.75
 4	William	Alexander	walexander3@hexun.com	Male	Online	99	0	6	8.3	10	3.01
@@ -7,7 +7,7 @@ ID	First name	Last Name	Email	Gender	Student type	Exam result	Homework sent	Home
 6	Antonio	Gonzalez	agonzalez5@zdnet.com	Male	Online	148	1	8	9.6	1	2.48
 7	Cheryl	Gray	cgray6@yahoo.com	Female	Online	315	10	10	2.5	6	4.66
 8	Craig	King	cking7@cyberchimps.com	Male	Online	208	7	9	14.3	2	3.59
-9	Craig	Ellis	cellis8@homestead.com	Male	Onsite	51	3	7	8.2	3	4.11
+9	Craig	Ellis	cellis8@abv.bg	Male	Onsite	51	3	7	8.2	3	4.11
 10	Andrea	Harper	aharper9@facebook.com	Female	Onsite	57	5	7	12.1	6	1.11
 11	Steven	Cole	scolea@dagondesign.com	Male	Online	22	3	6	10.6	9	4.1
 12	Richard	Edwards	redwardsb@uiuc.edu	Male	Online	299	1	6	8.8	3	2.1

@@ -1,5 +1,5 @@
 ID	First name	Last Name	Email	Gender	Student type	Exam result	Homework sent	Homework evaluated	Teamwork	Attendances	Bonus
-1	Sara	Mills	smills0@marketwatch.com	Female	Online	48	6	7	2.6	8	0.99
+1	Sara	Mills	smills0@abv.bg	Female	Online	48	6	7	2.6	8	0.99
 2	Daniel	Carter	dcarter1@buzzfeed.com	Male	Onsite	271	9	4	10.7	10	1.32
 3	Aaron	Gibson	agibson2@house.gov	Male	Online	96	8	9	11.6	9	3.75
 4	William	Alexander	walexander3@hexun.com	Male	Online	99	0	6	8.3	10	3.01
@@ -7,7 +7,7 @@ ID	First name	Last Name	Email	Gender	Student type	Exam result	Homework sent	Home
 6	Antonio	Gonzalez	agonzalez5@zdnet.com	Male	Online	148	1	8	9.6	1	2.48
 7	Cheryl	Gray	cgray6@yahoo.com	Female	Online	315	10	10	2.5	6	4.66
 8	Craig	King	cking7@cyberchimps.com	Male	Online	208	7	9	14.3	2	3.59
-9	Craig	Ellis	cellis8@homestead.com	Male	Onsite	51	3	7	8.2	3	4.11
+9	Craig	Ellis	cellis8@abv.bg	Male	Onsite	51	3	7	8.2	3	4.11
 10	Andrea	Harper	aharper9@facebook.com	Female	Onsite	57	5	7	12.1	6	1.11
 11	Steven	Cole	scolea@dagondesign.com	Male	Online	22	3	6	10.6	9	4.1
 12	Richard	Edwards	redwardsb@uiuc.edu	Male	Online	299	1	6	8.8	3	2.1
@@ -28,10 +28,10 @@ ID	First name	Last Name	Email	Gender	Student type	Exam result	Homework sent	Home
 27	Alice	Baker	abakerq@dell.com	Female	Onsite	73	6	3	8.1	0	2.64
 28	Jesse	Howard	jhowardr@ftc.gov	Male	Online	261	10	7	4.7	6	1.78
 29	Lawrence	Welch	lwelchs@dailymotion.com	Male	Online	279	8	0	7.3	4	3.02
-30	Helen	Hernandez	hhernandezt@yale.edu	Female	Onsite	32	8	1	8.4	8	0.08
+30	Helen	Hernandez	hhernandezt@abv.bg	Female	Onsite	32	8	1	8.4	8	0.08
 31	Frances	Fisher	ffisheru@mayoclinic.com	Female	Onsite	276	4	2	8.1	4	2.09
 32	Lillian	Hart	lhartv@cnet.com	Female	Onsite	337	4	3	3.6	9	0.56
-33	Heather	Knight	hknightw@samsung.com	Female	Online	346	3	4	5.4	4	2.0
+33	Heather	Knight	hknightw@abv.bg	Female	Online	346	3	4	5.4	4	2.0
 34	Bonnie	Shaw	bshawx@ezinearticles.com	Female	Onsite	30	1	10	4.1	7	2.38
 35	Anne	Freeman	afreemany@drupal.org	Female	Onsite	50	8	8	2.9	2	5.0
 36	Nancy	Patterson	npattersonz@noaa.gov	Female	Onsite	38	5	9	0.6	6	1.4
@@ -57,7 +57,7 @@ ID	First name	Last Name	Email	Gender	Student type	Exam result	Homework sent	Home
 56	Susan	Dixon	sdixon1j@prweb.com	Female	Online	169	9	7	8.0	6	3.1
 57	Terry	Pierce	tpierce1k@arizona.edu	Male	Online	108	0	6	8.8	3	2.63
 58	Robin	Long	rlong1l@berkeley.edu	Female	Onsite	59	1	2	1.1	1	1.68
-59	Tina	Olson	tolson1m@nifty.com	Female	Online	264	6	7	4.7	7	1.31
+59	Tina	Olson	tolson1m@abv.bg	Female	Online	264	6	7	4.7	7	1.31
 60	Albert	Cruz	acruz1n@archive.org	Male	Onsite	84	6	7	3.2	3	2.89
 61	Kathryn	Lee	klee1o@ucsd.edu	Female	Onsite	373	9	2	3.9	7	4.21
 62	Frances	Peters	fpeters1p@google.cn	Female	Onsite	198	8	5	0.1	8	3.28
