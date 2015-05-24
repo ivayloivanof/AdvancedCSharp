@@ -44,9 +44,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExelentStudents.cs" />
+    <Compile Include="FilterStudents.cs" />
+    <Compile Include="FirsNameLastNameAndAge.cs" />
     <Compile Include="FunctionalPrograming.cs" />
+    <Compile Include="GetByFirstName.cs" />
+    <Compile Include="GetFirstAndLastName.cs" />
     <Compile Include="GroupingByGroupName.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SortStudentBy.cs" />
     <Compile Include="StudentEnrolledIn2014.cs" />
     <Compile Include="Students.cs" />
     <Compile Include="StudentSpecialty.cs" />

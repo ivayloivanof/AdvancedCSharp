@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
-using StudentsClass;
 
-namespace StudentEnrolled   
+namespace Students   
 {
     public static class StudentEnrolled
     {

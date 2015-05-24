@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using StudentsClass;
-using WeakStudents;
-using StudentEnrolled;
-using GroupingStudents;
+using Students;
 
 class FunctionalPrograming
 {
@@ -15,35 +12,35 @@ class FunctionalPrograming
 
         //CreateClassStudents
         List<Student> students = Student.GetListStudents();
-
+        
         //Group student by group
-        Student.GetStudentByFirstName(students, "2", false);
-
+        GetByFirstName.GetStudentByFirstName(students, "2", false);
+        
         //GetFirstAndLastName
-        Student.GetFirstAndLastName(students, false);
-
+        FirstAndLastName.GetFirstAndLastName(students, false);
+        
         //GetFirstNameLastNameAndAge
-        Student.GetFirstNameLastNameAndAge(students, false);
-
+        FirsNameLastNameAndAge.GetFirstNameLastNameAndAge(students, false);
+        
         //SortStudentsBy
-        Student.SortStudentBy(students, "linq", false);
-
+        SortStudentBy.SortStudentByQueryType(students, "lambda", false);
+        
         //FilterStudentByEmailAddress
-        Student.FilterStudentsByEmail(students, @"@abv.bg", false);
-
+        FilterStudent.FilterStudentsByEmail(students, @"@abv.bg", false);
+        
         //FilterStudentByPhoneAddress
-        Student.FilterStudentsByPhone(students, false);
-            
+        FilterStudent.FilterStudentsByPhone(students, false);
+        
         //ExelentStudents
-        Student.ExelentStudents(students, false);
-
+        ExelentStudents.ExelentStudent(students, false);
+        
         //WeakStudent
         var weakStudent = students.WeakStudent();
         foreach (var student in weakStudent)
         {
             //Console.WriteLine("{0} {1} = {2}", student.FirstName, student.LastName, string.Join(" ", student.Marks));
         }
-
+        
         //StudentsEnrolledIn2014
         var studentEnrolled = students.Enrolled();
         foreach (var student in studentEnrolled)
@@ -52,6 +49,8 @@ class FunctionalPrograming
         }
 
         //Grouping student by GroupName
-        GroupingByGroupName.ByGroupName(students, true);
+        GroupingByGroupName.ByGroupName(students, false);
+         
+        
     }
 }
