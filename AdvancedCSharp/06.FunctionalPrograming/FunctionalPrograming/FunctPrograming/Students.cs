@@ -44,20 +44,6 @@ namespace Students
                     int randomAge = random.Next(18, 55);
                     int randomFacultyNumber = random.Next(203000, 204000);
                     List<int> marks = new List<int> { 1, 2, 3, 4, 5, 3 };
-                    Dictionary<int, string[]> specialtyName = new Dictionary<int, string[]>();
-                    specialtyName.Add(203114, new []{"Web Developer"});
-                    specialtyName.Add(203314, new []
-                                                    {
-                                                        "Web Developer",
-                                                        "QA Engineer"
-                                                    });
-                    specialtyName.Add(203914, new []
-                                                    {
-                                                        "Web Developer",
-                                                        "PHP Developer"
-                                                    });
-                    specialtyName.Add(203814, new []{"PHP Developer"});
-
                     string line = reader.ReadLine();
                     if (line == null)
                         break;
@@ -77,9 +63,9 @@ namespace Students
                                                 randomAge,  //age
                                                 randomFacultyNumber.ToString(), //facultyNumber
                                                 randomPhoneNumber.ToString(),   //phoneNumber
-                                                words[3],   //
-                                                marks,  //
-                                                words[7])   //
+                                                words[3],   //email
+                                                marks,      //marks
+                                                words[7])   //GroupNumber
                                 );
                     i++;
                     j++;
