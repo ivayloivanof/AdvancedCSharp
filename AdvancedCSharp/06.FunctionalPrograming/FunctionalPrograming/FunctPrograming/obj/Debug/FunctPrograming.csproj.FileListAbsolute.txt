@@ -1,0 +1,6 @@
+C:\Users\n1p3ha\Documents\GitHub\softuni.homework.FundamentalLevel\AdvancedCSharp\06.FunctionalPrograming\FunctionalPrograming\FunctPrograming\bin\Debug\FunctPrograming.exe.config
+C:\Users\n1p3ha\Documents\GitHub\softuni.homework.FundamentalLevel\AdvancedCSharp\06.FunctionalPrograming\FunctionalPrograming\FunctPrograming\bin\Debug\FunctPrograming.exe
+C:\Users\n1p3ha\Documents\GitHub\softuni.homework.FundamentalLevel\AdvancedCSharp\06.FunctionalPrograming\FunctionalPrograming\FunctPrograming\bin\Debug\FunctPrograming.pdb
+C:\Users\n1p3ha\Documents\GitHub\softuni.homework.FundamentalLevel\AdvancedCSharp\06.FunctionalPrograming\FunctionalPrograming\FunctPrograming\obj\Debug\FunctPrograming.csprojResolveAssemblyReference.cache
+C:\Users\n1p3ha\Documents\GitHub\softuni.homework.FundamentalLevel\AdvancedCSharp\06.FunctionalPrograming\FunctionalPrograming\FunctPrograming\obj\Debug\FunctPrograming.exe
+C:\Users\n1p3ha\Documents\GitHub\softuni.homework.FundamentalLevel\AdvancedCSharp\06.FunctionalPrograming\FunctionalPrograming\FunctPrograming\obj\Debug\FunctPrograming.pdb
