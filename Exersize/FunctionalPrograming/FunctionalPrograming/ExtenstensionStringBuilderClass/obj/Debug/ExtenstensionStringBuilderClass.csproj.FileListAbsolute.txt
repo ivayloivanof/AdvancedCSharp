@@ -1,6 +1,0 @@
-C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\Exersize\FunctionalPrograming\FunctionalPrograming\ExtenstensionStringBuilderClass\bin\Debug\ExtenstensionStringBuilderClass.exe.config
-C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\Exersize\FunctionalPrograming\FunctionalPrograming\ExtenstensionStringBuilderClass\bin\Debug\ExtenstensionStringBuilderClass.exe
-C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\Exersize\FunctionalPrograming\FunctionalPrograming\ExtenstensionStringBuilderClass\bin\Debug\ExtenstensionStringBuilderClass.pdb
-C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\Exersize\FunctionalPrograming\FunctionalPrograming\ExtenstensionStringBuilderClass\obj\Debug\ExtenstensionStringBuilderClass.csprojResolveAssemblyReference.cache
-C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\Exersize\FunctionalPrograming\FunctionalPrograming\ExtenstensionStringBuilderClass\obj\Debug\ExtenstensionStringBuilderClass.exe
-C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\Exersize\FunctionalPrograming\FunctionalPrograming\ExtenstensionStringBuilderClass\obj\Debug\ExtenstensionStringBuilderClass.pdb

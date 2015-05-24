@@ -1,0 +1,5 @@
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\AdvancedCSharpAlgorithmsLab\03.InsertionSort\bin\Debug\03.InsertionSort.exe.config
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\AdvancedCSharpAlgorithmsLab\03.InsertionSort\bin\Debug\03.InsertionSort.exe
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\AdvancedCSharpAlgorithmsLab\03.InsertionSort\bin\Debug\03.InsertionSort.pdb
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\AdvancedCSharpAlgorithmsLab\03.InsertionSort\obj\Debug\03.InsertionSort.exe
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\AdvancedCSharpAlgorithmsLab\03.InsertionSort\obj\Debug\03.InsertionSort.pdb
