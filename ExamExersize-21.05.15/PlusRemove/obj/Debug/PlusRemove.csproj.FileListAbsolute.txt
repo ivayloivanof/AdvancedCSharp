@@ -1,0 +1,6 @@
+C:\Users\Ivaylo Ivanov\Documents\GitHub\softuni.homework.FundamentalLevel\ExamExersize-21.05.15\PlusRemove\bin\Debug\PlusRemove.exe.config
+C:\Users\Ivaylo Ivanov\Documents\GitHub\softuni.homework.FundamentalLevel\ExamExersize-21.05.15\PlusRemove\bin\Debug\PlusRemove.exe
+C:\Users\Ivaylo Ivanov\Documents\GitHub\softuni.homework.FundamentalLevel\ExamExersize-21.05.15\PlusRemove\bin\Debug\PlusRemove.pdb
+C:\Users\Ivaylo Ivanov\Documents\GitHub\softuni.homework.FundamentalLevel\ExamExersize-21.05.15\PlusRemove\obj\Debug\PlusRemove.csprojResolveAssemblyReference.cache
+C:\Users\Ivaylo Ivanov\Documents\GitHub\softuni.homework.FundamentalLevel\ExamExersize-21.05.15\PlusRemove\obj\Debug\PlusRemove.exe
+C:\Users\Ivaylo Ivanov\Documents\GitHub\softuni.homework.FundamentalLevel\ExamExersize-21.05.15\PlusRemove\obj\Debug\PlusRemove.pdb
