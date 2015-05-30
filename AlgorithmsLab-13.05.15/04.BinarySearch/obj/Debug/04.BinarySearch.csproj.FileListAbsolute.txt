@@ -1,0 +1,6 @@
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\AdvancedCSharpAlgorithmsLab\04.BinarySearch\bin\Debug\04.BinarySearch.exe.config
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\AdvancedCSharpAlgorithmsLab\04.BinarySearch\bin\Debug\04.BinarySearch.exe
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\AdvancedCSharpAlgorithmsLab\04.BinarySearch\bin\Debug\04.BinarySearch.pdb
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\AdvancedCSharpAlgorithmsLab\04.BinarySearch\obj\Debug\04.BinarySearch.csprojResolveAssemblyReference.cache
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\AdvancedCSharpAlgorithmsLab\04.BinarySearch\obj\Debug\04.BinarySearch.exe
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\AdvancedCSharpAlgorithmsLab\04.BinarySearch\obj\Debug\04.BinarySearch.pdb

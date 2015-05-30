@@ -1,0 +1,5 @@
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\AdvancedCSharpAlgorithmsLab\05.LargetsRectangle\bin\Debug\05.LargetsRectangle.exe.config
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\AdvancedCSharpAlgorithmsLab\05.LargetsRectangle\bin\Debug\05.LargetsRectangle.exe
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\AdvancedCSharpAlgorithmsLab\05.LargetsRectangle\bin\Debug\05.LargetsRectangle.pdb
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\AdvancedCSharpAlgorithmsLab\05.LargetsRectangle\obj\Debug\05.LargetsRectangle.exe
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\AdvancedCSharpAlgorithmsLab\05.LargetsRectangle\obj\Debug\05.LargetsRectangle.pdb

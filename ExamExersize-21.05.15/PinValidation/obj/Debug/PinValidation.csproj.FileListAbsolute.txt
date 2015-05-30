@@ -1,0 +1,6 @@
+C:\Users\Ivaylo Ivanov\Documents\GitHub\softuni.homework.FundamentalLevel\ExamExersize-21.05.15\PinValidation\bin\Debug\PinValidation.exe.config
+C:\Users\Ivaylo Ivanov\Documents\GitHub\softuni.homework.FundamentalLevel\ExamExersize-21.05.15\PinValidation\bin\Debug\PinValidation.exe
+C:\Users\Ivaylo Ivanov\Documents\GitHub\softuni.homework.FundamentalLevel\ExamExersize-21.05.15\PinValidation\bin\Debug\PinValidation.pdb
+C:\Users\Ivaylo Ivanov\Documents\GitHub\softuni.homework.FundamentalLevel\ExamExersize-21.05.15\PinValidation\obj\Debug\PinValidation.csprojResolveAssemblyReference.cache
+C:\Users\Ivaylo Ivanov\Documents\GitHub\softuni.homework.FundamentalLevel\ExamExersize-21.05.15\PinValidation\obj\Debug\PinValidation.exe
+C:\Users\Ivaylo Ivanov\Documents\GitHub\softuni.homework.FundamentalLevel\ExamExersize-21.05.15\PinValidation\obj\Debug\PinValidation.pdb

@@ -1,0 +1,5 @@
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\AdvancedCSharpAlgorithmsLab\02.TheSieveOfEratosthenes\bin\Debug\02.TheSieveOfEratosthenes.exe.config
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\AdvancedCSharpAlgorithmsLab\02.TheSieveOfEratosthenes\bin\Debug\02.TheSieveOfEratosthenes.exe
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\AdvancedCSharpAlgorithmsLab\02.TheSieveOfEratosthenes\bin\Debug\02.TheSieveOfEratosthenes.pdb
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\AdvancedCSharpAlgorithmsLab\02.TheSieveOfEratosthenes\obj\Debug\02.TheSieveOfEratosthenes.exe
+C:\Users\Ivaylo Ivanov\Documents\SoftUni\sftuni.hmwrk.FndLvl\AdvancedCSharpAlgorithmsLab\02.TheSieveOfEratosthenes\obj\Debug\02.TheSieveOfEratosthenes.pdb
