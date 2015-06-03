@@ -1,0 +1,6 @@
+C:\Users\Ivaylo Ivanov\Documents\GitHub\softuni.homework.FundamentalLevel\ExamExersize-21.05.15\PhoneNumber\bin\Debug\PhoneNumber.exe.config
+C:\Users\Ivaylo Ivanov\Documents\GitHub\softuni.homework.FundamentalLevel\ExamExersize-21.05.15\PhoneNumber\bin\Debug\PhoneNumber.exe
+C:\Users\Ivaylo Ivanov\Documents\GitHub\softuni.homework.FundamentalLevel\ExamExersize-21.05.15\PhoneNumber\bin\Debug\PhoneNumber.pdb
+C:\Users\Ivaylo Ivanov\Documents\GitHub\softuni.homework.FundamentalLevel\ExamExersize-21.05.15\PhoneNumber\obj\Debug\PhoneNumber.csprojResolveAssemblyReference.cache
+C:\Users\Ivaylo Ivanov\Documents\GitHub\softuni.homework.FundamentalLevel\ExamExersize-21.05.15\PhoneNumber\obj\Debug\PhoneNumber.exe
+C:\Users\Ivaylo Ivanov\Documents\GitHub\softuni.homework.FundamentalLevel\ExamExersize-21.05.15\PhoneNumber\obj\Debug\PhoneNumber.pdb
