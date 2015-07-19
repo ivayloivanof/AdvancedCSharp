@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="PlusRemove\PlusRemove\PlusRemove.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PlusRemove\PlusRemove\Program.cs">
+    <Files>
+      <File FileName="PlusRemove\PlusRemove\Program.cs" Line="42" Column="46" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Ivaylo Ivanov\Documents\GitHub\AdvancedCSharp\ExamPractice\ExamPractice\PlusRemove\PlusRemove\Program.cs" line="29" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

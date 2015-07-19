@@ -2,6 +2,8 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
 
     public class Program
     {
@@ -9,10 +11,21 @@
         {
             string line;
             var chars = new List<string>();
+            int loop = 0;
             do
             {
                 line = Console.ReadLine();
-                chars.Add(line);
+                if (line.Length > 1 && line.Length <= 100)
+                {
+                    chars.Add(line);
+                }
+
+                if (loop >= 100)
+                {
+                    break;
+                }
+
+                loop++;
             }
             while (!string.IsNullOrEmpty(line) && !line.Contains("END"));
 
@@ -25,47 +38,56 @@
                 jaggetArray[row] = charArr;
             }
 
-            // deep cope
-            var jaggedArrayClone = (char[][])jaggetArray.Clone();
-
+            List<string> coordinate = new List<string>();
             for (int row = 1; row < jaggetArray.Length - 2; row++)
             {
                 for (int col = 1; col < jaggetArray[row].Length - 1; col++)
                 {
-                    bool isPlus = (jaggetArray[row][col] == jaggetArray[row][col - 1]) && // before char
+                    try
+                    {
+                        bool isPlus = (jaggetArray[row][col] == jaggetArray[row][col - 1]) && // before char
                                   (jaggetArray[row][col] == jaggetArray[row][col + 1]) && // next char
                                   (jaggetArray[row][col] == jaggetArray[row - 1][col]) && // up char
                                   (jaggetArray[row][col] == jaggetArray[row + 1][col]);
-                    if (isPlus)
+                        if (isPlus)
+                        {
+                            coordinate.Add(string.Format("{0}, {1}", row, col));
+                        }
+                    }
+                    catch (IndexOutOfRangeException ex)
                     {
-                        jaggedArrayClone[row][col] = '€';
-                        jaggedArrayClone[row][col - 1] = '€';
-                        jaggedArrayClone[row][col + 1] = '€';
-                        jaggedArrayClone[row - 1][col] = '€';
-                        jaggedArrayClone[row + 1][col] = '€';
+                        continue;
                     }
                 }
             }
 
-            Console.WriteLine();
-            Console.WriteLine("Original");
-            for (int row = 0; row < jaggetArray.Length; row++)
+            for (int row = 0; row < jaggetArray.Length - 1; row++)
             {
                 for (int col = 0; col < jaggetArray[row].Length; col++)
                 {
-                    Console.Write(jaggetArray[row][col]);
+                    foreach (string str in coordinate)
+                    {
+                        int[] numbers = str.Split(',').Select(x => Convert.ToInt32(x)).ToArray();
+                        if (row == numbers[0] && col == numbers[1])
+                        {
+                            jaggetArray[row][col] = '€';
+                            jaggetArray[row][col - 1] = '€';
+                            jaggetArray[row][col + 1] = '€';
+                            jaggetArray[row - 1][col] = '€';
+                            jaggetArray[row + 1][col] = '€';
+                        }
+                    }
                 }
-
-                Console.WriteLine();
             }
 
-            Console.WriteLine();
-            Console.WriteLine("Clone;");
-            for (int row = 0; row < jaggedArrayClone.Length; row++)
+            for (int row = 0; row < jaggetArray.Length - 1; row++)
             {
-                for (int col = 0; col < jaggedArrayClone[row].Length; col++)
+                for (int col = 0; col < jaggetArray[row].Length; col++)
                 {
-                    Console.Write(jaggedArrayClone[row][col]);
+                    if (jaggetArray[row][col] != '€')
+                    {
+                        Console.Write(jaggetArray[row][col]);
+                    }
                 }
 
                 Console.WriteLine();
